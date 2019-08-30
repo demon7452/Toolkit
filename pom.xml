@@ -6,7 +6,21 @@
 
     <groupId>com.xiong</groupId>
     <artifactId>toolkit</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>toolkit-web</module>
+        <module>toolkit-api</module>
+        <module>toolkit-service</module>
+        <module>toolkit-lib</module>
+    </modules>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+            <version>2.1.7.RELEASE</version>
+        </dependency>
+    </dependencies>
 </project>
